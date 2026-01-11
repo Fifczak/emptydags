@@ -6,7 +6,7 @@ from airflow.operators.python import PythonOperator
 def _print_hello():
     print("Hello World")
 
-DUPA
+    DUPA
 with DAG(
     'hello_world',
     description='Simple Hello World DAG',
